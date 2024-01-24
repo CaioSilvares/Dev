@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1 id="pageTitle">Folio<span id="pageTitleDot">.</span></h1>
+        <h2>Caio Silvares</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, est quaerat sed enim laboriosam optio possimus harum voluptas soluta perspiciatis cupiditate reprehenderit qui, provident excepturi nulla earum accusamus distinctio assumenda?</p>
+    </div>
+    <div>
+        <div>
+            <h3>Programming skills</h3>
+            <ul>
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>GRPC</li>
+                <li>Html</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Projects</h3>
+            <ol>
+                <li>
+                    <a target="_blank"  href="https://github.com/CaioSilvares/Agenda-API">Agenda API</a>
+                </li>
+                <li>
+                    <a target="_blank"  href="https://github.com/CaioSilvares/CarRental-API">Car Rental API</a>
+                </li>
+                <li>
+                    <a target="_blank"  href="https://github.com/CaioSilvares/Petshop-API">Petshop API</a>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div>
+        <h3>Need to get in touch?</h3>
+        <h4>Contact me!</h4>
+        <form>
+            <section>
+                <label for="name">name:</label>
+                <input type="text" placeholder="Caio Silvares" name="name" required>
+            </section>
+            <section>
+                <label for="email">e-mail:</label>
+                <input type="email" placeholder="c.silvares@gmail.com" name="email" required>
+            </section>
+            <section>
+                <label>What is your requets?</label>
+                <input type="checkbox" name="deliverable">
+                <label for="deliverable">deliverable</label>
+                <input type="checkbox" name="service">
+                <label for="service">service</label>
+                <input type="checkbox" name="consultant">
+                <label for="consultant">consultant</label>
+            </section>
+            <section>
+                <label for="about">Talk about your demand:</label>
+                <textarea name="about" cols="30" rows="10">Specify more about your needs and I will answer as soon as possible</textarea>
+            </section>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>

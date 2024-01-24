@@ -1,0 +1,31 @@
+:root {
+    --white: #FFF;
+    --wenge: #605856;
+    --cerulan: #1c6e8c;
+    --charcoal: #274156;
+    --jade: #26a96c;
+    --jonquil: #F0c808;
+}
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:var(--jade) 1px solid;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}
+
+#pageTitleDot {
+    color: #F0c808;
+}
+
+#pageTitle {
+    display:flex;
+    padding:8px;
+    align-items:center;
+    justify-content:center;
+}

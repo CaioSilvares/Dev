@@ -1,0 +1,71 @@
+:root {
+    --white: #fff;
+    --primary: #F90;
+    --secondary: #7D7987;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem; /* 80px */
+}
+
+main {
+    margin: auto 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+a, a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.landing-title {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem; 
+    margin: 2rem auto;
+}
+
+.landing-content {
+    font-size: 0.875rem;
+    font-family: 'Open Sans';
+    color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+.landing-image {
+    width: 21.75rem;
+    margin-bottom: 2.5rem;
+}
+
+.contact-options {
+    display: flex;
+    gap: 3rem;
+}
+
+.balls-decoration {
+    position: fixed;
+    bottom: -10px;
+    right: -12px;
+    width: 6.25rem;
+}
+
+.bold {
+    font-weight: 700;    
+}
+
+.highlight {
+    color: var(--primary);
+ }
