@@ -1,8 +1,34 @@
-.nickname {
-    font-weight: 700;
+.post {
+    display: flex;
+    flex-direction: column;
+    gap:.5rem
 }
 
-.username {
+.header {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem; /*4px*/
+}
 
-    font-weight: 200;
+.nickname {
+    font-weight: 500;
+}
+
+.username, .timeAgo {
+    font-weight: 300;
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.callToActionBtn {
+    display: flex;
+    align-items: center;
+    gap:0.25rem;
 }
