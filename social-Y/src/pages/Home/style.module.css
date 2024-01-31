@@ -1,0 +1,6 @@
+.homeLayout {
+    display: flex;
+    margin: 0 6vw;
+    gap: 0.625rem;
+    justify-content: center;
+}

@@ -1,0 +1,15 @@
+.menuOption {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin: 1rem 0.625rem;
+    cursor: pointer;
+}
+
+.menuOption:hover {
+    color: var(--primary-blue);
+}
+
+.selectedOption {
+    color: var(--primary-blue);
+}

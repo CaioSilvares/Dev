@@ -1,8 +1,8 @@
-import { Post } from "./components/Post";
+import { Home } from './pages/Home'
 
 export function App() {
     return (
-        <Post />
+        <Home />
     )
 }
 
